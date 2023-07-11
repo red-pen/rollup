@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es6", "dom", "es7", "es2017", "es2018", "esnext"],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "removeComments": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules", "dist"]
+}
